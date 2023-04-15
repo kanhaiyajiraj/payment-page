@@ -28,6 +28,8 @@ form {
 
   perspective: 60rem;
   grid-area: card;
+
+  margin: 0 auto;
 }
 
 #credit-card > div {
@@ -190,7 +192,7 @@ form {
   box-shadow: 0 .4rem 1.6rem rgba(0, 0, 0, 0.1);
   border-radius: .4rem;
 
-  border: none;
+  border: 0;
 
   font-family: 'Source Sans Pro';
   font-weight: 600;
