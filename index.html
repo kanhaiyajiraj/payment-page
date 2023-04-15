@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagamento</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <form>
+    <section id="credit-card">
+      <div class="front"></div>
+      <div class="back"></div>
+    </section>
+    
+    <section class="input-wrapper">
+      <div id="input-number">
+        <label for="cc-number">Número do cartão</label>
+        <input id="cc-number"
+        type="text"
+        placeholder="**** **** **** ****"
+        />
+      </div>
+
+      <div id="input-name">
+        <label for="cc-holder">Nome do titular</label>
+        <input id="cc-holder"
+        type="text"
+        placeholder="Nome como está no cartão"
+        required
+        />
+        <div class="warning">
+          <img src="images/warning.svg"
+          alt="ícone de cuidado">
+          <p>Nome do titular é obrigatório</p>
+        </div>
+      </div>
+
+      <div id="input-val">
+        <label for="cc-val">Validade</label>
+        <input id="cc-val"
+        type="text"
+        placeholder="mm/aa"
+        />
+      </div>
+
+      <div id="input-cvv">
+        <label for="cc-cvv">CVV
+          <img src="https://i.ibb.co/47MD2Bt/Question.png"
+          alt="ícone de ajuda"
+          title="Esse número está, geralmente, nas costas
+          do seu cartão"
+          >
+        </label>
+        <input id="cc-cvv"
+        type="text"
+        placeholder="***"
+        />
+      </div>
+    </section>
+
+    <section class="info-security">
+     <img src="https://i.ibb.co/dgcV8z0/Vector.png"
+     alt="ícone de um escudo">
+      <p>Seus dados estão seguros</p>
+    </section>
+    <section class="button">
+     <button>Adicionar Cartão</button>
+    </section>
+  </form>
+
+  <script src="https://unpkg.com/imask"></script>
+  <script src="script.js"></script>
+</body>
+</html>
