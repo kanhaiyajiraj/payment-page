@@ -35,7 +35,7 @@ This project was developed with the following technologies:
 
 This is a secure checkout page where the consumer would be able to put their credit card number.
 
-- [Access the deploy of this project online](brunaporato.github.io/payment-page/)
+- [Access the deploy of this project online](https://brunaporato.github.io/payment-page/)
 
 ## 🔖 Layout
 
